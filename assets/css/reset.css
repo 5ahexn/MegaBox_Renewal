@@ -1,1 +1,93 @@
 @charset "UTF-8";
+
+/* 웹폰트 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+/* 여백 초기화 */
+body,
+div,
+h1, h2, h3, h4, h5, h6,
+p,
+ul, ol, li,
+table,
+th, tr, td,
+dl, dd, dt,
+input,
+form,
+fieldset, legend,
+figure, figcaption,
+select,
+textarea,
+button {
+    margin: 0;
+    padding: 0;
+}
+
+/* a 링크 초기화 */
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* 폰트 초기화 */
+body,
+input,
+select,
+textarea,
+button,
+table {
+    color: #fff;
+    font-family: 'Noto Sans KR', AppleSDGothicNeo-Regular, 'Malgun Gothic', '맑은 고딕', dotum, '돋움', sans-serif;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+/* 폰트 스타일 초기화 */
+em,
+address {
+    font-style: normal;
+}
+
+/* 블릿기호 초기화 */
+ul, ol, li {
+    list-style: none;
+}
+
+/* 제목 태그 초기화 */
+h1, h2, h3, h4, h5, h6 {
+    font-size: 13px;
+    font-weight: normal;
+}
+
+/* 테두리 초기화 */
+img,
+fieldset {
+    border: 0 none;
+}
+
+/* 버튼 초기화 */
+button {
+    border: 0;
+}
+
+/* 반응형 */
+video,
+img {
+    width: 100%;
+}
+
+/* Clearfix */
+.clearfix {
+    *zoom: 1;
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: '';
+    display: block;
+    line-height: 0;
+}
+
+.clearfix::after {
+    clear: both;
+}

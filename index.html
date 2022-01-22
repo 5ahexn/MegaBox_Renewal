@@ -32,6 +32,8 @@
             alert("현재 당신이 보는 브라우저는 지원하지 않습니다. 최신 크롬 브라우저로 사용해주세요!");
         </script>
     <![endif]-->
+    <!-- Font Awesome CSS -->
+    <link type="text/css" rel="stylesheet" href="./assets/css/font-awesome.css">
     <!-- Reset CSS -->
     <link type="text/css" rel="stylesheet" href="./assets/css/reset.css">
     <!-- Style CSS -->
@@ -44,10 +46,10 @@
                 <div class="header clearfix">
                     <nav class="gnb_left">
                         <ul class="clearfix">
+                            <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
                             <li><a href="#">영화</a></li>
                             <li><a href="#">예매</a></li>
                             <li><a href="#">극장</a></li>
-                            <li><a href="#">스토어</a></li>
                         </ul>
                     </nav>
 
@@ -74,17 +76,20 @@
             <div class="container">
                 <div class="row">
                     <div class="all_menu">
-                        <ul>
+                        <ul class="clearfix">
                             <li class="total"><a href="#">전체 메뉴</a></li>
                             <li class="time_table"><a href="#">상영 시간표</a></li>
                             <li class="ticketing"><a href="#">빠른 예매</a></li>
-                            <li><a href="#">vip</a></li>
-                            <li><a href="#">멤버십</a></li>
-                            <li><a href="#">나의 메가박스</a></li>
-                            <li><a href="#">회원가입</a></li>
-                            <li><a href="#">고객센터</a></li>
-                            <li><a href="#">회사소개</a></li>
-                            <li><a href="#">이용정책</a></li>
+                            
+                            <ul class="hide clearfix">
+                                <li class="line"><a href="#">vip</a></li>
+                                <li><a href="#">멤버십</a></li>
+                                <li><a href="#">나의 메가박스</a></li>
+                                <li><a href="#">회원가입</a></li>
+                                <li><a href="#">고객센터</a></li>
+                                <li><a href="#">회사소개</a></li>
+                                <li><a href="#">이용정책</a></li>
+                            </ul>
                         </ul>
                     </div>
                 </div>

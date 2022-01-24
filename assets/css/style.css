@@ -14,6 +14,11 @@
     width: 1280px;
 }
 
+/* 로우 영역 */
+.row {
+    padding: 0 28px;
+}
+
 /* 레이아웃 */
 #header {
     background: var(--black);
@@ -36,7 +41,7 @@
 .header h1 em {
     display: inline-block;
     /* block으로 설정해야 패딩값이 인식됨 */
-    padding: 35px 130px 10px;
+    padding: 35px 140px 10px;
 }
 
 .header h1 em img {
@@ -44,9 +49,9 @@
 }
 
 .header nav ul li {
-    float: left;
     /* 가로정렬 */
-    width: 110px;
+    float: left;
+    width: 100px;
     text-align: center;
     /* border-right: 1px solid #ccc; */
 }
@@ -58,7 +63,7 @@
 }
 
 .header .gnb_left ul li a {
-    padding: 50px 17px 0;
+    padding-top: 55px;
 }
 
 .header .nav_right {
@@ -66,7 +71,7 @@
 }
 
 .header .nav_right ul li a {
-    padding: 50px 13px 0;
+    padding-top: 55px;
 }
 
 /* 배너 */
@@ -79,7 +84,7 @@
 
 .top_menu .all_menu ul li {
     float: left;
-    margin: 0 24px;
+    margin: 0 20px;
     text-align: center;
     position: relative;
 }
@@ -91,7 +96,7 @@
     background: var(--white);
     position: absolute;
     top: 5px;
-    right: -24px;
+    right: -20px;
 }
 
 .top_menu .all_menu ul.hide li:last-child::after {
@@ -114,7 +119,7 @@
     border: 1px solid var(--white);
     display: inline;
     font-size: 18px;
-    padding: 6px 15px;
+    padding: 6px 10px;
 }
 
 .top_menu .all_menu ul li.total a:hover {
@@ -162,3 +167,15 @@
     display: none;
 }
 
+/* 미디어 쿼리 */
+@media (max-width: 1290px){
+    .container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1024px){}
+@media (max-width: 960px){}
+@media (max-width: 768px){}
+@media (max-width: 480px){}
+@media (max-width: 320px){}
